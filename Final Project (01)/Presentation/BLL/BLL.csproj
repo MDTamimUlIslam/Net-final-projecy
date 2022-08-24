@@ -44,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BEnt\TransportRegModel.cs" />
+    <Compile Include="BEnt\VehicleTicketModel.cs" />
+    <Compile Include="BEnt\VehicleBookingModel.cs" />
+    <Compile Include="BEnt\HotelBookingModel.cs" />
     <Compile Include="BEnt\BookedVehicleModel.cs" />
     <Compile Include="BEnt\RoomListModel.cs" />
     <Compile Include="BEnt\ReportModel.cs" />
@@ -54,6 +58,10 @@
     <Compile Include="BEnt\AdminListModel.cs" />
     <Compile Include="BEnt\TokenModel.cs" />
     <Compile Include="BEnt\TouristModel.cs" />
+    <Compile Include="Services\TransportRegService.cs" />
+    <Compile Include="Services\VehicleTicketService.cs" />
+    <Compile Include="Services\VehicleBookingService.cs" />
+    <Compile Include="Services\HotelBookingService.cs" />
     <Compile Include="Services\BookedVehicleService.cs" />
     <Compile Include="Services\RoomListService.cs" />
     <Compile Include="Services\ReportService.cs" />

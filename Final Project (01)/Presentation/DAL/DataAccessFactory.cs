@@ -65,5 +65,30 @@ namespace DAL
             return new BookedVehicleRepo(db);
         }
 
+        public static IRepo<HotelBooking, int ,bool> GetHotelBookingDataAccess()
+        {
+            return new HotelBookingRepo(db);
+        }
+        public static IRepo<VehicleBooking, int, bool> GetVehicleBookingDataAccess()
+        {
+            return new VehicleBookingRepo(db);
+        }
+
+
+
+
+        public static IRepo<TicketBooking, int, bool> GetTicketBookingDataAccess()
+        {
+            return new VehicleTicketRepo(db);
+        }
+        public static IRepo<TransportReg, int, bool> GetTransportRegDataAccess()
+        {
+            return new TransportRegRepo(db);
+        }
+
+     
+    
+
+
     }
 }

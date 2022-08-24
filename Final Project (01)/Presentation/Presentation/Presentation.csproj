@@ -86,6 +86,10 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Auth\ValidUser.cs" />
+    <Compile Include="Controllers\TransportRegController.cs" />
+    <Compile Include="Controllers\VehicleTicketController.cs" />
+    <Compile Include="Controllers\VehicleBookingController.cs" />
+    <Compile Include="Controllers\HotelBookingController.cs" />
     <Compile Include="Controllers\BookedVehicleController.cs" />
     <Compile Include="Controllers\RoomListController.cs" />
     <Compile Include="Controllers\ReportController.cs" />

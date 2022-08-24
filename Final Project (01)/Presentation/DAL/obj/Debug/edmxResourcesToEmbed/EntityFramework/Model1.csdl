@@ -191,5 +191,21 @@
     <EntitySet Name="Tokens" EntityType="Self.Token" />
     <EntitySet Name="TransportRegs" EntityType="Self.TransportReg" />
     <EntitySet Name="VehicleBookings" EntityType="Self.VehicleBooking" />
+    <EntitySet Name="TicketBookings" EntityType="Model.TicketBooking" />
   </EntityContainer>
+  <EntityType Name="TicketBooking">
+    <Key>
+      <PropertyRef Name="CusID" />
+    </Key>
+    <Property Name="CusID" Type="Int32" Nullable="false" />
+    <Property Name="VehicleName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StartingPoint" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FinishingPont" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="VehicleType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BookingDate" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SeatNO" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Payment" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TransactionNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

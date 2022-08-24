@@ -39,5 +39,6 @@ namespace DAL.EntityFramework
         public DbSet<Token> Tokens { get; set; }
         public DbSet<TransportReg> TransportRegs { get; set; }
         public DbSet<VehicleBooking> VehicleBookings { get; set; }
+        public DbSet<TicketBooking> TicketBookings { get; set; }
     }
 }

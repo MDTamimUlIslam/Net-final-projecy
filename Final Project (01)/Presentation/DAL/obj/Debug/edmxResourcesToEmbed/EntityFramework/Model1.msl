@@ -191,5 +191,21 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="TicketBookings">
+      <EntityTypeMapping TypeName="Model.TicketBooking">
+        <MappingFragment StoreEntitySet="TicketBooking">
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="TransactionNO" ColumnName="TransactionNO" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+          <ScalarProperty Name="SeatNO" ColumnName="SeatNO" />
+          <ScalarProperty Name="BookingDate" ColumnName="BookingDate" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="FinishingPont" ColumnName="FinishingPont" />
+          <ScalarProperty Name="StartingPoint" ColumnName="StartingPoint" />
+          <ScalarProperty Name="VehicleName" ColumnName="VehicleName" />
+          <ScalarProperty Name="CusID" ColumnName="CusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

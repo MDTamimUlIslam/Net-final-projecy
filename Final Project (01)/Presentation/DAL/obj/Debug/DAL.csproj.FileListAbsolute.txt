@@ -28,3 +28,13 @@ C:\Users\HP\Desktop\Final marged project\Final Project (01)\Presentation\DAL\bin
 C:\Users\HP\Desktop\Final marged project\Final Project (01)\Presentation\DAL\bin\Debug\EntityFramework.dll
 C:\Users\HP\Desktop\Final marged project\Final Project (01)\Presentation\DAL\bin\Debug\EntityFramework.xml
 C:\Users\HP\Desktop\Final marged project\Final Project (01)\Presentation\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\bin\Debug\DAL.dll.config
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\bin\Debug\DAL.dll
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\obj\Debug\DAL.dll
+C:\Users\HP\Desktop\Final marged project\Net-final-projecy\Final Project (01)\Presentation\DAL\obj\Debug\DAL.pdb

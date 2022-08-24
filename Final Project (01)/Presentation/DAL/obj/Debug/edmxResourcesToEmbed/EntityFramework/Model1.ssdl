@@ -137,6 +137,21 @@
     <Property Name="Offer" Type="varchar" MaxLength="50" />
     <Property Name="ExtraInfo" Type="varchar" MaxLength="50" Nullable="false" />
   </EntityType>
+  <EntityType Name="TicketBooking">
+    <Key>
+      <PropertyRef Name="CusID" />
+    </Key>
+    <Property Name="CusID" Type="int" Nullable="false" />
+    <Property Name="VehicleName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StartingPoint" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FinishingPont" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="VehicleType" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="BookingDate" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SeatNO" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Payment" Type="varchar" MaxLength="50" />
+    <Property Name="TransactionNO" Type="varchar" MaxLength="50" />
+    <Property Name="Status" Type="varchar" MaxLength="50" />
+  </EntityType>
   <EntityType Name="Tokens">
     <Key>
       <PropertyRef Name="Id" />
@@ -188,6 +203,7 @@
     <EntitySet Name="Inq" EntityType="Self.Inq" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Report" EntityType="Self.Report" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="RoomList" EntityType="Self.RoomList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TicketBooking" EntityType="Self.TicketBooking" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tokens" EntityType="Self.Tokens" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TransportReg" EntityType="Self.TransportReg" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="VehicleBooking" EntityType="Self.VehicleBooking" Schema="dbo" store:Type="Tables" />
